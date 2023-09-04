@@ -94,6 +94,6 @@ jobs:
         run: gh api ${{ env.PR_URL }} | jq -rc '${{ env.JQ_FILTER }}' >> "$GITHUB_OUTPUT"
 
       - name: Checkout code
-        uses: actions/checkout@v3.5.3
+        uses: actions/checkout@v4.0.0
         with:
           sparse-checkout: ${{ env.SPARSE_CHECKOUT }}
