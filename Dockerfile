@@ -1,1 +1,1 @@
-FROM docker.io/evanbuss/openbooks:4.4.1
+FROM docker.io/evanbuss/openbooks:4.5.0
